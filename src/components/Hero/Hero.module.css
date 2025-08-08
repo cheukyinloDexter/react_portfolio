@@ -1,0 +1,115 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 80vh;
+  padding: 0 10%;
+}
+
+.picContainer {
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.textSection {
+  align-self: center;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.introText {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms ease;
+  border: 0.1rem solid var(--color-primary);
+}
+
+.btnOutline {
+  background: none;
+  color: var(--color-text);
+}
+
+.btnOutline:hover {
+  background: black;
+  color: white;
+}
+
+.btnSolid {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btnSolid:hover {
+  background: black;
+}
+
+.socialsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .picContainer {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .btnContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 830px) {
+  .container {
+    display: block;
+    flex-direction: column;
+  }
+
+  .content {
+    justify-content: center;
+    align-items: center;
+  }
+}

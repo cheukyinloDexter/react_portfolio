@@ -1,0 +1,14 @@
+:root {
+    /* Colours */
+    --color-text: #fff;
+    --color-accent: #545472;
+    --color-primary: #58669d49;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    /* fonts */
+    --font-share-tech-mono: "Share-tech-mono";
+    font-family: "Share Tech", sans-serif;
+    --font-roboto: "Roboto";
+}
