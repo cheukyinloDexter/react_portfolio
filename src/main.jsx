@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import { getImageUrl } from './utils'; // Import getImageUrl
 
 import "@fontsource/outfit";
 import "@fontsource/roboto";
@@ -14,12 +15,12 @@ createRoot(document.getElementById('root')).render(
 )
 
 const closedFaviconAnimation = [
-  "assets/1.png",
-  "assets/7.png"
+  getImageUrl("1.png"),
+  getImageUrl("7.png")
 ];
 
 const openedFaviconAnimation = [
-  "assets/d.jpg"
+  getImageUrl("d.jpg")
 ];
 
 const closedTitleFrames = [
@@ -78,7 +79,7 @@ function stopFaviconAnimation() {
     document.head.appendChild(link);
     document.title = "Dexter Lo";
   }
-  link.href = "assets/d.png";
+  link.href = getImageUrl("d.png");
   document.title = "Dexter Lo";
 }
 

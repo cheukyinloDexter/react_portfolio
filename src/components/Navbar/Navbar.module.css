@@ -34,7 +34,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
