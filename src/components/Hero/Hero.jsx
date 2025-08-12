@@ -1,21 +1,41 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import Model from "./Model/Model";
 import { getImageUrl } from "../../utils";
+import Typed from 'typed.js';
 
 export const Hero = () => {
+  const typedRef = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(typedRef.current, {
+      strings: [
+        "Frontend",
+        "Backend",
+        "Game",
+        "App"
+      ],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section id="profile" className={styles.container}>
       <div className={styles.picContainer}>
-        <img
-          src={getImageUrl("heroImage.png")}
-          alt="Dexter Lo profile picture"
-          className={styles.heroImg}
-        />
+        <Model />
       </div>
       <div className={styles.textSection}>
         <p className={styles.introText}>Hello, I'm</p>
         <h1 className={styles.title}>Dexter Lo</h1>
-        <p className={styles.subtitle}>Developer</p>
+        <p className={styles.subtitle}>
+          I'm a <span ref={typedRef}/>Developer
+        </p>
         <div className={styles.btnContainer}>
           <a
             className={`${styles.btn} ${styles.btnOutline}`}

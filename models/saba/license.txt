@@ -1,0 +1,11 @@
+Model Information:
+* title:	Saba lowpoly
+* source:	https://sketchfab.com/3d-models/saba-lowpoly-1258250c2e4144c990be0066c96a4829
+* author:	pyr0xene (https://sketchfab.com/pyr0xene)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Saba lowpoly" (https://sketchfab.com/3d-models/saba-lowpoly-1258250c2e4144c990be0066c96a4829) by pyr0xene (https://sketchfab.com/pyr0xene) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

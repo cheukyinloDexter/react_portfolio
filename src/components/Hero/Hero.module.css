@@ -1,8 +1,8 @@
 @import "../../vars.css";
 
 .container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
   align-items: center;
   gap: 5rem;
   height: 80vh;
@@ -10,10 +10,17 @@
 }
 
 .picContainer {
+  grid-column: 1; /* Place in the first column */
+  grid-row: 1;    /* Place in the first row */
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 400px;
   width: 400px;
   margin: 0 auto 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background */
 }
 
 .heroImg {
@@ -23,6 +30,9 @@
 }
 
 .textSection {
+  grid-column: 2; /* Place in the second column */
+  grid-row: 1;    /* Place in the first row */
+  display: block;
   align-self: center;
   text-align: center;
   margin: 0 auto 2rem;
@@ -112,5 +122,14 @@
   .content {
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .picContainer {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto 2rem;
   }
 }
