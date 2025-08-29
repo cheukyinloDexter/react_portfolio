@@ -31,7 +31,7 @@ const NavList = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
+    width: 150px;
     padding-top: 3.5rem;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     transition: transform 0.3s ease-in-out;
@@ -43,19 +43,19 @@ const NavList = styled.ul`
   }
 `;
 
-const RightNav = ({ open }) => (
-  <NavList open={open}>
+const RightNav = ({ open, onClick }) => (
+  <NavList open={open} >
     <li>
-      <a href="#about">About</a>
+      <a href="#about" onClick={onClick}>About</a>
     </li>
     <li>
-      <a href="#skills">Skills</a>
+      <a href="#skills" onClick={onClick}>Skills</a>
     </li>
     <li>
-      <a href="#projects">Projects</a>
+      <a href="#projects" onClick={onClick}>Projects</a>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="#contact" onClick={onClick}>Contact</a>
     </li>
   </NavList>
 );

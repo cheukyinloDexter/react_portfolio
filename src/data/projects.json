@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Hotwire",
+    "imageSrc": "projects/hotwire.png",
+    "description": "A 3D puzzle game built in Unity for Kiwijam 2025, featuring active ragdoll physics and rope-based mechanics.",
+    "skills": ["Unity3D", "C#", "Physics Simulation", "Game Design"],
+    "demo": "https://dexter147.itch.io/hotwire",
+    "source": "https://github.com/cheukyinloDexter/hotwire"
+  }
+]

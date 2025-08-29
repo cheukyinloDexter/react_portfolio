@@ -14,39 +14,41 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
+        {/* <img
           src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
-        />
+        /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <FontAwesomeIcon icon={faMousePointer} className={styles.icon} />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I build responsive, user-friendly web apps with React, modern
+                CSS, and a focus on clean UI and accessibility.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
             <FontAwesomeIcon icon={faServer} className={styles.icon} />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I create secure and scalable back-end systems with PHP and
+                MySQL, and connect them to APIs for full-stack solutions.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
             <FontAwesomeIcon icon={faPalette} className={styles.icon} />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Creative Developer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Beyond web, I’ve built mobile apps, AI features, and games with
+                Unity—bringing creativity and versatility to my projects.
               </p>
             </div>
           </li>
