@@ -15,8 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   margin: 0 auto 2rem;
   border-radius: 50%;
   overflow: hidden;
@@ -105,14 +105,25 @@
   font-size: 2em;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1920px) {
   .picContainer {
+    height: 500px;
+    width: 500px;
     margin-top: 2rem;
     display: block;
   }
 
   .btnContainer {
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .picContainer {
+    height: 400px;
+    width: 400px;
+    margin-top: 2rem;
+    display: block;
   }
 }
 @media screen and (max-width: 830px) {

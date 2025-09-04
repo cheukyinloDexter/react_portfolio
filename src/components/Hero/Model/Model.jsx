@@ -24,7 +24,7 @@ function Loader() {
 export default function Model() {
   return (
     <div className={styles.modelViewer}>
-      <Canvas camera={{ position: [0, 0, 10], fov: 45 } } dpr={[0.1, 0.8]} gl={{ antialias: false }}>
+      <Canvas camera={{ position: [0, 0, 10], fov: 45 } } dpr={[0.1, 0.6]} gl={{ antialias: false }}>
         <ambientLight intensity={0.7} />
         <directionalLight position={[2, 2, 2]} intensity={1} />
         <Suspense fallback={<Loader />}>

@@ -3,8 +3,37 @@
     "title": "Hotwire",
     "imageSrc": "projects/hotwire.png",
     "description": "A 3D puzzle game built in Unity for Kiwijam 2025, featuring active ragdoll physics and rope-based mechanics.",
-    "skills": ["Unity3D", "C#", "Physics Simulation", "Game Design"],
+    "skills": [
+      "Unity3D",
+      "C#",
+      "Physics Simulation",
+      "Game Design"
+    ],
     "demo": "https://dexter147.itch.io/hotwire",
-    "source": "https://github.com/cheukyinloDexter/hotwire"
+    "source": null
+  },
+  {
+    "title": "Cafe Kiosk UI",
+    "imageSrc": "projects/UI.png",
+    "description": "A Figma prototype of a self-ordering cafe kiosk with features like member login, menu browsing, item customisation, and a checkout flow.",
+    "skills": [
+      "UI/UX Design",
+      "Figma",
+      "Prototyping",
+      "Interaction Design"
+    ],
+    "demo": "https://www.figma.com/proto/9YqKSh3MMfahUeheRlnx5M/Assignment2-The-CAF?node-id=137-124&t=26Y97gLAD5c9e7qD-1&scaling=scale-down&content-scaling=fixed&page-id=64%3A119&starting-point-node-id=137%3A124",
+    "source": null
+  },
+  {
+    "title": "C++ pixel game",
+    "imageSrc": "projects/c++.png",
+    "description": "A game made in C++, object oriened ",
+    "skills": [
+      "C++",
+      "object oriened"
+    ],
+    "demo": null,
+    "source": null
   }
 ]
