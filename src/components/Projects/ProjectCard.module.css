@@ -1,18 +1,54 @@
 @import "../../vars.css";
 
-.container {
+.projectCardContainer {
   display: flex;
+  position: relative;
   flex-direction: column;
   border-radius: 10px;
   background: rgba(30, 30, 30, 0.8);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
-  height: 280px;
+
+  width: 400px;
+  height: 300px;
+  align-items: center;
+}
+
+.picContainer {
+  grid-column: 1; /* Place in the first column */
+  grid-row: 1;    /* Place in the first row */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background */
+  opacity: 1;
+}
+
+.projectCardContainer:hover .picContainer {
+  opacity: 1;
+}
+
+.projectCardContainer:hover .overlay {
+  opacity: 1;
 }
 
 .image {
+  
   margin-bottom: 26px;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  padding: 25px 25px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(30, 30, 30, 0.8);
 }
 
 .title {

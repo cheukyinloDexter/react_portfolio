@@ -1,7 +1,7 @@
 [
   {
     "title": "Hotwire",
-    "imageSrc": "projects/hotwire.png",
+    "imageSrc": "assets/projects/hotwire.png",
     "description": "A 3D puzzle game built in Unity for Kiwijam 2025, featuring active ragdoll physics and rope-based mechanics.",
     "skills": [
       "Unity3D",
@@ -14,7 +14,7 @@
   },
   {
     "title": "Cafe Kiosk UI",
-    "imageSrc": "projects/UI.png",
+    "imageSrc": "assets/projects/UI.png",
     "description": "A Figma prototype of a self-ordering cafe kiosk with features like member login, menu browsing, item customisation, and a checkout flow.",
     "skills": [
       "UI/UX Design",
@@ -26,14 +26,16 @@
     "source": null
   },
   {
-    "title": "C++ pixel game",
-    "imageSrc": "projects/c++.png",
-    "description": "A game made in C++, object oriened ",
+    "title": "DeskTop Pet Project",
+    "imageSrc": "assets/projects/Desktop.png",
+    "description": "Bring your desktop to life with this animated companion. An overlay of a dancing character dancing, adding a touch of fun to your workspace.",
     "skills": [
-      "C++",
-      "object oriened"
+      "Unity3D",
+      "C#",
+      "Animation Controller",
+      "State Machine"
     ],
-    "demo": null,
-    "source": null
+    "demo": "https://github.com/cheukyinloDexter/unity_desktop_pet/releases",
+    "source": "https://github.com/cheukyinloDexter/unity_desktop_pet"
   }
 ]

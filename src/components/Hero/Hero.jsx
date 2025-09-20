@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Model from "./Model/Model";
+import cv from "../../../CV.pdf"
 import { getImageUrl } from "../../utils";
 import Typed from 'typed.js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -44,7 +45,7 @@ export const Hero = () => {
         <div className={styles.btnContainer}>
           <a
             className={`${styles.btn} ${styles.btnOutline}`}
-            href="/cv.pdf"
+            href={cv}
             target="_blank"
             rel="noopener noreferrer"
           >
