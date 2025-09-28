@@ -28,7 +28,7 @@
   {
     "title": "DeskTop Pet Project",
     "imageSrc": "assets/projects/Desktop.png",
-    "description": "Bring your desktop to life with this animated companion. An overlay of a dancing character dancing, adding a touch of fun to your workspace.",
+    "description": "Bring your desktop to life with this animated companion. An overlay of a character dancing, adding a touch of fun to your workspace.",
     "skills": [
       "Unity3D",
       "C#",
